@@ -16,9 +16,6 @@
 <!-- visitor statistics logo 访客数统计徽标 -->
   <img src="https://visitor-badge.glitch.me/badge?page_id=YangRucheng" alt="访客统计" /></div>
 
-<!-- Snake Code Contribution Map 贪吃蛇代码贡献图 -->
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/YangRucheng/YangRucheng/profile-snake-contrib/github-contribution-grid-snake-dark.svg" /></div>
-
 <!-- Self introduction 自我介绍 -->
 #  🙋 Hello
 
@@ -32,8 +29,6 @@
 💪 正在学习
 
 &emsp;&emsp;
-<!-- ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat-square&logo=c&logoColor=white) -->
-<!-- ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=flat-square&logo=c-sharp&logoColor=white) -->
 ![Python](https://img.shields.io/badge/-Python-pink?style=flat-square&logo=Python)
 ![Docker](https://img.shields.io/badge/-Docker-FCC624?style=flat-square&logo=docker)
 ![MySQL](https://img.shields.io/badge/MySQL-%2300f.svg?style=flat-square&logo=mysql&logoColor=white)
