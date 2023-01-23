@@ -60,58 +60,20 @@
 
 </div>
 
-<!-- programming tool icon 编程工具图标 -->
-<div align="center">
-
 <!-- img -->
 <img src="https://skillicons.dev/icons?i=ps,ai,pr,c,cpp,cs,ts,discord,twitter,mongodb,instagram,idea,git" /><br>
 
 <!-- just img 图片-->
 <div align="center"><img src="https://cdn.jsdelivr.net/gh/YangRucheng/YangRucheng/assets/images/icon.png" /></div>
 
-<!-- profile-3d-contrib 3D贡献图-->
-<div align="center" ><img src="https://cdn.jsdelivr.net/gh/YangRucheng/YangRucheng/profile-3d-contrib/profile-night-rainbow.svg" /></div>
-
 <!-- just img 图片 -->
 <div align="center"><img src="https://cdn.jsdelivr.net/gh/YangRucheng/YangRucheng/assets/images/man_run.png" alt="Man Running" width="250" height="250" /></div>
-
-<!-- Spotify 音乐 -->
-<div align="center">
-  <img width="150" src="https://cdn.jsdelivr.net/gh/YangRucheng/YangRucheng/assets/images/shin_chan.gif" />&emsp;&emsp;&emsp;&emsp;&emsp;
-  <img src="https://spotify-github-profile.vercel.app/api/view?uid=31k53kp6hgkbovg72427dya5av44&cover_image=true&theme=default&show_offline=false&background_color=121212" />
-  &emsp;&emsp;&emsp;&emsp;&emsp;<img width="150" src="https://cdn.jsdelivr.net/gh/YangRucheng/YangRucheng/assets/images/shin_chan.gif" />
-</div>
-
-<!-- just img 图片 -->
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/YangRucheng/YangRucheng/assets/images/coffee.gif" alt="coffee" /></div><br>
 
 <!-- Joke 笑话 -->
 <div align="center"><img src="https://readme-jokes.vercel.app/api?hideBorder&bgColor=%23121212" alt="Jokes Card" /></div>
 
-<!-- github-readme-streak-stats 连续提交代码天数记录 -->
-<div align="center">
-  <img width="150" src="https://cdn.jsdelivr.net/gh/YangRucheng/YangRucheng/assets/images/left.png" />&emsp;
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=YangRucheng&theme=dark&hide_border=true" />
-  &emsp;<img width="150" src="https://cdn.jsdelivr.net/gh/YangRucheng/YangRucheng/assets/images/right.png" />
-</div><br>
-
-<!-- metrics 基础资料 -->
-<div align="center">
-  <img width="150" src="https://cdn.jsdelivr.net/gh/YangRucheng/YangRucheng/assets/images/cxyduck.gif" />&emsp;
-  <img src="https://cdn.jsdelivr.net/gh/YangRucheng/YangRucheng/github-metrics/base.svg" />
-  &emsp;<img width="150" src="https://cdn.jsdelivr.net/gh/YangRucheng/YangRucheng/assets/images/cxyduck.gif" />
-</div><br>
-
-<!-- My Blog 博客首页 -->
-<div align="center" >
-  <a href="https://blog.sunguoqi.com"><img src="https://cdn.jsdelivr.net/gh/YangRucheng/YangRucheng/github-metrics/pagespeed.screenshot.svg" /></a>
-</div>
-
 <!-- Quotes 名人名言 -->
 <div align="center"><img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" /></div>
-  
-<!-- GitHub 奖杯🏆 -->
-<div align="center"><img  src="https://github-profile-trophy.vercel.app/?username=YangRucheng&theme=gruvbox&row=1&column=6&no-frame=true&no-bg=true" /></div><br>
 
 <!-- GitHub 数据统计 -->
 <div align="center">
