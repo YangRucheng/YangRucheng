@@ -6,10 +6,10 @@
 </h1>
 
 <!-- knock code pictures 敲代码的图片 -->
-<div align="center" ><img src="https://cdn.jsdelivr.net/gh/YangRucheng/YangRucheng/assets/images/githubgirl.gif" /></div><br>
+<div align="center" ><img src="https://cdn.jsdelivr.net/gh/YangRucheng/YangRucheng/assets/images/coding.gif" /></div><br>
 
 <!-- knock code pictures 敲代码的图片 -->
-<div align="center" ><img src="https://cdn.jsdelivr.net/gh/YangRucheng/YangRucheng/assets/images/coding.gif" /></div><br>
+<div align="center" ><img src="https://cdn.jsdelivr.net/gh/YangRucheng/YangRucheng/assets/images/githubgirl.gif" /></div><br>
 
 <!-- profile logo 个人资料徽标 -->
 <div align="center">
