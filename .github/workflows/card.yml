@@ -1,0 +1,55 @@
+name: update.
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          ref: static
+
+      - name: 设置时区
+        uses: zcong1993/setup-timezone@master
+        with:
+          timezone: Asia/Shanghai
+
+      - name: 生成 GitHub 摘要卡片
+        uses: vn7n24fzkq/github-profile-summary-cards@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          AUTO_PUSH: false
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: 生成 GitHub 贡献格子蛇
+        uses: Platane/snk@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            snk-output/github-snake.svg
+            snk-output/github-snake-dark.svg?palette=github-dark
+            snk-output/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 提交代码
+        run: |
+          git reset --hard $(git rev-list --max-parents=0 HEAD)
+          git add .
+          git config --local user.email "bot@yangrucheng.top"
+          git config --local user.name "Bot"
+          git commit --allow-empty -m "update static file" -a
+
+      - name: 推送代码
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force_with_lease: true
+          branch: static
